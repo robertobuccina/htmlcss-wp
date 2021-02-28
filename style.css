@@ -1,0 +1,111 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body > *{
+    margin: auto;
+    width: 70%; 
+    font-family: arial;
+}
+
+header{
+    height: 100px;
+}
+
+.logo img{
+    width: 120px;
+}
+
+nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 10px 0 0;
+}
+
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: grey;
+}
+
+main{
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-image: url(banner.jpg);   
+}
+
+main section{
+    padding: 250px 50% 20px 30px;
+    color: white;
+}
+
+.title h2 p{
+    margin:20px 0 0 20px;
+}
+
+.container::after{
+    clear: both;
+    display: table;
+    content:'';
+}
+
+.bg{
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px; 
+}
+
+.h-180{
+    height: 180px; 
+}
+
+.bg-1{
+    background-image: url(img-1.jpg);
+}
+
+.bg-2{
+    background-image: url(banner-2.jpg);
+}
+
+.bg-3{
+    background-image: url(img-3.jpg);
+}
+
+.left-box{
+    width: 22.5%;   
+}
+
+.center-box{
+    width: 50%;
+    margin: 0 2.5% 0 2.5%;  
+}
+
+.right-box{  
+    width: 22.5%;  
+}
+
+.left-box,.center-box,.right-box{
+    float: left;
+    margin-top: 30px;   
+}
+
+article > h4{
+  margin-bottom: 10px;    
+}
+
+.text-grey{
+    color:grey;
+}
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+
